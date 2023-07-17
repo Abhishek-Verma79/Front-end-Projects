@@ -1,0 +1,344 @@
+
+/* MEDIA QUIRIES FOR DIFFERENT SCREEN SIZING */
+
+@media  screen and (max-width: 1323px) {
+    .curr-sing{
+        font-size: .8rem;
+    }
+}
+
+
+@media  screen and (max-width: 1216px) {
+    .name-f-song{
+        font-size: .6rem ;
+    }
+    .singer-name{
+        font-size: .6rem;
+    }
+}
+
+@media screen and (max-width: 1197px) {
+    .fav{
+        display: none;
+    }
+}
+@media screen and (max-width: 1172px){
+    .station span{
+        font-size : .81rem;
+    }
+    
+}
+@media screen and (max-width:1163px) {
+    footer{
+        margin-left : -2rem; 
+    }
+    .sec-foot{
+        margin-left: -2.5rem;
+    }
+}
+
+@media  screen and (max-width: 1066px) {
+    .curr-sing{
+        font-size: .6rem;
+    }
+    .onism-photo{
+        width: 55%;
+    }
+    .song-photo{
+        width: 55%;
+    }
+    .song-photo:hover .play-it{
+        font-size: .6rem;
+    }
+}
+
+ @media screen and (max-width: 1025px){
+    .song-number{
+        display: none;
+    }
+    
+} 
+
+
+@media screen and (max-width: 938px){
+    .name-f-song{
+        font-size: .5rem ;
+    }
+    .singer-name{
+        font-size: .5rem;
+    }
+}
+
+@media screen and (max-width: 928px){
+    .station span{
+        font-size : .7rem;
+    }
+    .num-img-name{
+        width: 80%;
+    }
+    .q-song-container{
+        font-size: .7rem;
+    }
+    .name-f-song{
+        font-size: .7rem;
+    }
+    .styl{
+        font-size: .7rem;
+    }
+    .play-all-btn, .follow-btn{
+        padding: .2rem .2rem;
+    }
+    .wiki{
+        margin-top: .2rem;
+    }
+    .onism-photo{
+        width: 60%;
+    }
+    .song-photo{
+        width: 60%;
+    }
+    .play-l .play-it-2{
+        position: absolute;
+    top : 38%;
+    left : 30%;
+    }
+}
+
+@media screen and (max-width: 882px) {
+    .up{
+        font-size: .7rem;
+    }
+    .down{
+        font-size: .5rem;
+    }
+}
+
+@media screen and (max-width: 865px){
+    .sir-name{
+        display: none;
+    }
+    .station span{
+        top: 35%;
+        left : 23%;
+    }
+    .its-image{
+        width: 70%;
+    }
+    .name-and-date{
+        width: 30%;
+    }
+    
+}
+
+@media  screen and (max-width: 808px) {
+    .onism-photo{
+        width: 70%;
+    }
+    .song-photo{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    
+    #noti-bell{
+        font-size: 20px;
+    }
+    #profile-pic img{
+        width : 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .o-details  span{
+        font-size: .7rem;
+    }
+    .date{
+        font-size: .5rem !important;
+    }
+    .search{
+        width: 200px;
+    }
+    .container{
+        margin-top: .3rem;
+        width: 160px;
+    }
+    #brand-info img{
+        width: 40px;
+        height: 40px;
+    }
+    .player-name p,span{
+        font-size : 12px;
+    }
+    .time{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 746px) {
+    .onism-photo{
+        width: 75%;
+    }
+    .song-photo{
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 730px) {
+    .name-of-song{
+        width:72%;
+    }
+    .wish-block{
+        display: none;
+    }
+    .foot-img-contain{
+        width: 50%;
+    }
+    .foot-song-name{
+        width: 20%;
+    }
+    .foot-img-contain{
+        flex-direction: flex-start;
+    }
+    .img-name-container{
+        width: 50%;
+    }
+    .name-and-date{
+        width: 20%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 698px){
+    .station span{
+        font-size : .5rem;
+    }
+    
+        .name-f-song{
+            font-size: .5rem ;
+        }
+        .singer-name{
+            font-size: .5rem;
+        }
+       .wiki{
+            display: none;
+        }
+        .band-img{
+            width:90%;
+        }
+        .band-img::after{
+            content: "Coldplay";
+            font-size: .6rem;
+            color: white;
+            font-family: cursive;
+            letter-spacing: .2rem;
+        }
+        .styl{
+            font-size: .5rem;
+        }
+        .follow-btn,.sec{
+            display: none;
+        }
+        .small-it{
+            font-size: .6rem;
+        }
+        .first{
+            width: 100%;
+        }
+        .up{
+            font-size: .4rem;
+        }
+        .down{
+            font-size: .4rem;
+        }
+    
+    
+}
+
+@media screen and (max-width: 656px){
+    .num-img-name{
+        width: 90%;
+    }
+    .onism-photo{
+        width: 70%;
+    }
+    .song-photo{
+        width: 70%;
+    }
+    .onism-photo span{
+        font-size: .5rem;
+    }
+    .date{
+        font-size: .4rem !important;
+    }
+    
+}
+@media  screen and (max-width: 638px) {
+    .onism-photo{
+        width: 80%;
+    }
+    .song-photo{
+        width: 60%;
+    }
+    .play-l .play-it-2{
+        position: absolute;
+        top : 35%;
+        left : 40%;
+    }
+}
+
+
+@media screen and (max-width: 580px) {
+    body{
+        padding : 0 .5rem;
+    }
+    .song-photo:hover .play-it{
+        font-size : .9rem;
+    }
+    .station span{
+        font-size : .4rem;
+    }
+    .num-img-name{
+        width: 100%;
+    }
+    .wishlist{
+        display: none;
+    }
+    .img-contain{
+        width:50%
+    }
+    .name-f-song{
+        font-size: .6rem ;
+    }
+    .singer-name{
+        font-size: .6rem;
+    }
+    .name-f-song{
+        font-size: .4rem ;
+    }
+    .singer-name{
+        font-size: .4rem;
+    }
+    footer{
+        right:0;
+    }
+    .addy{
+        display:block;
+    }
+    .sim-heading span{
+        font-size: .5rem;
+    }
+    .onism-photo{
+        width: 88%;
+    }
+    .song-photo{
+        width: 85%;
+    }
+    .song-photo:hover .play-it{
+        top:25%;
+    }
+    
+}
